@@ -19,7 +19,7 @@ public class TestWebController {
         return testServicesApis.get("通过web调用的");
     }
 
-    @GetMapping("/hello")
+    @RequestMapping("/hello")
     public String getHello(){
         return "Hello";
     }
