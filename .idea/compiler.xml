@@ -10,6 +10,7 @@
         <module name="server" />
         <module name="web" />
         <module name="eureka" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="server" options="-parameters" />
       <module name="web" options="-parameters" />
     </option>
