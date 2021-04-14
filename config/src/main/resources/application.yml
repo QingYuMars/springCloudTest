@@ -1,0 +1,27 @@
+server:
+  port: 9904
+
+eureka:
+  instance:
+    preferIpAddress: true
+    instance-id: 127.0.0.1:9900
+  client:
+    serviceUrl:
+      defaultZone: http://@eureka.user.name@:@eureka.user.password@@localhost:9900/eureka/
+
+spring:
+  application:
+    name: config-service
+  profiles:
+    active: native
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: false
+    config:
+      server:
+        native:
+            # 文件存放的绝对路径，源码里面我用绝对路径的方式放在了resources里面，这里需要改成自己的路径
+            search-locations: file:D:\\IDEA Project\\springCloudTest\\config\\src\\main\\resources\\config
+
+

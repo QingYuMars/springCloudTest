@@ -26,7 +26,7 @@ spring:
 eureka:
   instance:
     preferIpAddress: true
-    instance-id: 127.0.0.1:$9900
+    instance-id: 127.0.0.1:9900
   client:
     serviceUrl:
       defaultZone: http://@eureka.user.name@:@eureka.user.password@@localhost:9900/eureka/
