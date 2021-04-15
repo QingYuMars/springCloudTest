@@ -34,3 +34,8 @@ spring:
         max-interval: 4000
           # 每次重试时间是之前的倍数
         multiplier: 1.2
+  data:
+    mongodb:
+      database: hbb_sms
+      host: 127.0.0.1
+      port: 27017
