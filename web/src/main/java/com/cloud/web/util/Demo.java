@@ -10,13 +10,17 @@ public class Demo {
         demo.getPath(file);
     }
     public void  getPath(File file){
-        File[] files = file.listFiles();//返回该目录下的子目录以及文件对应的File实例
+        //返回该目录下的子目录以及文件对应的File实例
+        File[] files = file.listFiles();
         for(File f:files){
-            if(f.isDirectory()){//判断是否是目录
+            //判断是否是目录
+            if(f.isDirectory()){
                 getPath(f);
             }else{
-                if(f.getName().endsWith(".java")){//判断文件名是否以.java结尾D:/Myeclipse-2014/project
-                    System.out.println(f.getAbsolutePath());//获取文件的绝对路径
+                //判断文件名是否以.java结尾D:/Myeclipse-2014/project
+                if(f.getName().endsWith(".java")){
+                    //获取文件的绝对路径
+                    System.out.println(f.getAbsolutePath());
                 }
             }
         }
