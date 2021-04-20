@@ -1,10 +1,6 @@
 package com.cloud.web.util;
 
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.Enumeration;
 import java.util.Properties;
 
@@ -191,8 +187,8 @@ public class ReadProperties {
     public static void getProperties_3(String filePath){
         Properties prop = new Properties();
         try {
-            InputStream inputStream = ReadProperties.class.getResourceAsStream(filePath);
-            prop.load(inputStream);
+            //中文乱码问题解决
+            prop.load(new InputStreamReader(ReadProperties.class.getResourceAsStream(filePath), "gbk"));
             printAllProperty(prop);
         } catch (IOException e) {
             e.printStackTrace();

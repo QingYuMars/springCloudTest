@@ -14,3 +14,11 @@
 
 mongo连接：https://www.jianshu.com/p/f4d45568c74b
 
+mongo集群搭建：https://www.jb51.net/article/152229.htm
+
+有密码情况下的Mongo连接：https://www.jianshu.com/p/f4d45568c74b
+
+springboot集成rabbitmq:https://www.cnblogs.com/sword-successful/p/10295561.html
+启动后默认使用guest/guest访问，仅支持localhost访问： http://localhost:15672。 web站点默认端口15672。 rabbitmq默认端口5672
+
+
