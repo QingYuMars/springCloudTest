@@ -21,4 +21,9 @@ mongo集群搭建：https://www.jb51.net/article/152229.htm
 springboot集成rabbitmq:https://www.cnblogs.com/sword-successful/p/10295561.html
 启动后默认使用guest/guest访问，仅支持localhost访问： http://localhost:15672。 web站点默认端口15672。 rabbitmq默认端口5672
 
+RabbitMQ生产者和消费者Java实现:
+    https://blog.csdn.net/qq_18671415/article/details/105541434
+![img_2.png](img_2.png)
+
+二维码：https://www.jianshu.com/p/bb76ded47d64
 
