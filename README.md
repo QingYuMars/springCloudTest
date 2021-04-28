@@ -27,3 +27,7 @@ RabbitMQ生产者和消费者Java实现:
 
 二维码：https://www.jianshu.com/p/bb76ded47d64
 
+springboot的RedisTemplate泛型自动注入问题:
+    https://blog.csdn.net/hybluck/article/details/103615859
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
