@@ -31,3 +31,9 @@ springboot的RedisTemplate泛型自动注入问题:
     https://blog.csdn.net/hybluck/article/details/103615859
 ![img_3.png](img_3.png)
 ![img_4.png](img_4.png)
+
+select a.uid,a.uname,a.upsw,a.urealname,a.utel,a.uremark, b.rid,b.rname,b.rremark,c.deptid,c.deptname,c.deptremark
+from table1 a left join table2 b on  a.sems_role_rid=b.rid left join table3 c on a.udeptid=c.deptid 
+
+RedisTemplate操作Redis:
+    https://blog.csdn.net/lydms/article/details/105224210
