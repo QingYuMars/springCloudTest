@@ -9,9 +9,11 @@ import java.util.Map;
 public class StrToMapTest {
 
     public static void main(String[] args) {
-        test01();
+        Long a = 0L;
+        System.err.println(a.equals(0L));
+        /*test01();
         test02();
-        test03();
+        test03();*/
     }
 
     public static void test01() {
