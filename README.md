@@ -37,3 +37,13 @@ from table1 a left join table2 b on  a.sems_role_rid=b.rid left join table3 c on
 
 RedisTemplate操作Redis:
     https://blog.csdn.net/lydms/article/details/105224210
+
+MySQL手册中find_in_set函数的语法解释：
+    FIND_IN_SET(str,strlist)
+        str 要查询的字符串
+        strlist 字段名 参数以”,”分隔 如 (1,2,6,8,10,22)
+        查询字段(strlist)中包含(str)的结果，返回结果为null或记录
+
+nohup java -jar 部署 jar 包后项目莫名挂掉的解决方法：
+    https://blog.csdn.net/ourstronger/article/details/115114354
+
